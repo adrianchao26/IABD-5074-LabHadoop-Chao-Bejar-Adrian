@@ -1,8 +1,8 @@
-#Laboratorio de prueba de HDFS, MapReduce/YARN y prueba de fallos
+# Laboratorio de prueba de HDFS, MapReduce/YARN y prueba de fallos
 
 Este proyecto sirve para probar las funciones principales de Hadoop, como la division de bloques, prueba de caida de nodos y ejecución de MapReduce sobre un texto de prueba
 
-##Ejecución
+## Ejecución
 
 Para ejecutar el proyecto deberá tener docker instalado y ejecutar el docker-compose dentro del fichero docker
 
@@ -12,7 +12,7 @@ Dentro de bash podra realizar las pruebas de la actividad
 
 "docker exec -it namenode bash"
 
-##Nota tecnica
+## Nota tecnica
 
 En la prueba de MapReduce se ha tenido que aumentar el espacio de memoria debido a que el proceso tardaba en empezar más de la cuenta.
  
