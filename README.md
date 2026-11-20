@@ -19,8 +19,13 @@ En la prueba de MapReduce se ha tenido que aumentar el espacio de memoria debido
 Se ha modificado el config con las siguientes lineas:
 
 `MAPRED-SITE.XML_yarn.app.mapreduce.am.resource.mb=1024`
+
 `MAPRED-SITE.XML_mapreduce.map.memory.mb=1024`
+
 `MAPRED-SITE.XML_mapreduce.reduce.memory.mb=1024`
+
 `MAPRED-SITE.XML_yarn.app.mapreduce.am.command-opts=-Xmx768m`
+
 `MAPRED-SITE.XML_mapreduce.map.java.opts=-Xmx768m`
+
 `MAPRED-SITE.XML_mapreduce.reduce.java.opts=-Xmx768m`
